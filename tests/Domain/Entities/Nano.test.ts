@@ -31,15 +31,15 @@ describe('Testes para a entidade Nano', () => {
     );
 
     expect(nano.id).toBe(id);
-    expect(nano.user_id).toBe(userId);
-    expect(nano.task_id).toBe(taskId);
+    expect(nano.userId).toBe(userId);
+    expect(nano.taskId).toBe(taskId);
     expect(nano.description).toBe(description);
-    expect(nano.estimated_hours).toBe(estimatedHours);
-    expect(nano.planned_start).toBe(plannedStart);
-    expect(nano.created_at).toBe(createdAt);
-    expect(nano.updated_at).toBe(updatedAt);
-    expect(nano.exceeded_days).toBe(exceededDays);
-    expect(nano.priority_score).toBe(priorityScore);
-    expect(nano.completion_percentage).toBe(completionPercentage);
+    expect(nano.estimatedHours).toBe(estimatedHours);
+    expect(nano.plannedStart).toBe(plannedStart);
+    expect(nano.createdAt).toBe(createdAt);
+    expect(nano.updatedAt).toBe(updatedAt);
+    expect(nano.exceededDays).toBe(exceededDays);
+    expect(nano.priorityScore).toBe(priorityScore);
+    expect(nano.completionPercentage).toBe(completionPercentage);
   });
 });

@@ -1,13 +1,13 @@
 export interface TaskInterface {
   id: string;
-  user_id: string;
-  project_id: string;
+  userId: string;
+  projectId: string;
   description: string;
-  created_at: Date;
-  updated_at: Date;
-  deleted_at?: Date | null;
-  canceled_at?: Date | null;
-  finished_at?: Date | null;
-  priority_score: number;
-  completion_percentage: number;
+  createdAt: Date;
+  updatedAt: Date;
+  deletedAt?: Date | null;
+  canceledAt?: Date | null;
+  finishedAt?: Date | null;
+  priorityScore: number;
+  completionPercentage: number;
 }

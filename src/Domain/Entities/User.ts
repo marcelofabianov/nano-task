@@ -6,9 +6,9 @@ class User implements UserInterface {
     public name: string,
     public email: string,
     public password: string,
-    public created_at: Date,
-    public updated_at: Date,
-    public deleted_at?: Date | null,
-    public inactivated_at?: Date | null
+    public createdAt: Date,
+    public updatedAt: Date,
+    public deletedAt?: Date | null,
+    public inactivatedAt?: Date | null
   ) {}
 }

@@ -1,12 +1,12 @@
 export interface CycleInterface {
   id: string;
-  user_id: string;
+  userId: string;
   name: string;
   description: string;
-  start_date: Date;
-  end_date: Date;
-  created_at: Date;
-  updated_at: Date;
-  deleted_at?: Date | null;
-  canceled_at?: Date | null;
+  startDate: Date;
+  endDate: Date;
+  createdAt: Date;
+  updatedAt: Date;
+  deletedAt?: Date | null;
+  canceledAt?: Date | null;
 }

@@ -3,9 +3,9 @@ import { NanoHistoryInterface } from './Interfaces/NanoHistoryInterface';
 class NanoHistory implements NanoHistoryInterface {
   constructor(
     public id: string,
-    public nano_id: string,
-    public user_id: string,
+    public nanoId: string,
+    public userId: string,
     public action: string,
-    public created_at: Date
+    public createdAt: Date
   ) {}
 }

@@ -3,8 +3,8 @@ export interface UserInterface {
   name: string;
   email: string;
   password: string;
-  created_at: Date;
-  updated_at: Date;
-  deleted_at?: Date | null;
-  inactivated_at?: Date | null;
+  createdAt: Date;
+  updatedAt: Date;
+  deletedAt?: Date | null;
+  inactivatedAt?: Date | null;
 }

@@ -1,7 +1,7 @@
 export interface NanoHistoryInterface {
   id: string;
-  nano_id: string;
-  user_id: string;
+  nanoId: string;
+  userId: string;
   action: string;
-  created_at: Date;
+  createdAt: Date;
 }

@@ -5,9 +5,9 @@ class Level implements LevelInterface {
     public id: string,
     public name: string,
     public level: number,
-    public milestone_points: number,
-    public created_at: Date,
-    public updated_at: Date,
-    public deleted_at?: Date | null
+    public milestonePoints: number,
+    public createdAt: Date,
+    public updatedAt: Date,
+    public deletedAt?: Date | null
   ) {}
 }

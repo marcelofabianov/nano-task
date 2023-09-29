@@ -3,12 +3,12 @@ import { ProjectInterface } from './Interfaces/ProjectInterface';
 class Project implements ProjectInterface {
   constructor(
     public id: string,
-    public user_id: string,
+    public userId: string,
     public name: string,
     public description: string,
-    public created_at: Date,
-    public updated_at: Date,
-    public deleted_at?: Date | null,
-    public cancelled_at?: Date | null
+    public createdAt: Date,
+    public updatedAt: Date,
+    public deletedAt?: Date | null,
+    public cancelledAt?: Date | null
   ) {}
 }

@@ -3,15 +3,15 @@ import { TaskInterface } from "./Interfaces/TaskInterface";
 class Task implements TaskInterface {
   constructor(
     public id: string,
-    public user_id: string,
-    public project_id: string,
+    public userId: string,
+    public projectId: string,
     public description: string,
-    public created_at: Date,
-    public updated_at: Date,
-    public priority_score: number,
-    public completion_percentage: number,
-    public deleted_at?: Date | null,
-    public cancelled_at?: Date | null,
-    public finished_at?: Date | null
+    public createdAt: Date,
+    public updatedAt: Date,
+    public priorityScore: number,
+    public completionPercentage: number,
+    public deletedAt?: Date | null,
+    public cancelledAt?: Date | null,
+    public finishedAt?: Date | null
   ) {}
 }
