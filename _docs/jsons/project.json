@@ -1,0 +1,10 @@
+{
+  "id": "project789",
+  "user_id": "user123",
+  "name": "Projeto de Pesquisa",
+  "description": "Projeto de pesquisa de mercado",
+  "created_at": "2023-09-18T16:00:00Z",
+  "updated_at": "2023-09-19T09:45:00Z",
+  "deleted_at": null,
+  "canceled_at": null
+}

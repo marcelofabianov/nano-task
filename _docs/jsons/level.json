@@ -1,0 +1,9 @@
+{
+  "id": "level001",
+  "name": "Nível 1",
+  "level": 1,
+  "milestone_points": 200,
+  "created_at": "2023-09-01T09:00:00Z",
+  "updated_at": "2023-09-01T09:00:00Z",
+  "deleted_at": null
+}

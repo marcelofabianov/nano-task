@@ -1,0 +1,19 @@
+{
+  "id": "1",
+  "user_id": "user123",
+  "task_id": "task456",
+  "description": "Realizar pesquisa de mercado",
+  "estimated_hours": 2.5,
+  "real_hours": 2.0,
+  "planned_start": "2023-09-20T08:00:00Z",
+  "started_at": "2023-09-20T08:15:00Z",
+  "paused_at": null,
+  "finished_at": "2023-09-20T10:15:00Z",
+  "canceled_at": null,
+  "created_at": "2023-09-20T07:30:00Z",
+  "updated_at": "2023-09-20T10:15:00Z",
+  "deleted_at": null,
+  "exceeded_days": false,
+  "priority_score": 85,
+  "completion_percentage": 80
+}
